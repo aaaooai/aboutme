@@ -1,0 +1,177 @@
+baseURL = 'https://aaaooai.github.io/'
+languageCode = 'ja'
+title = 'ﾀﾅｶ ﾄﾓｱｷ - DevOps Engineer'
+theme = 'hugo-devresume-theme'
+
+[params]
+  author = "ﾄﾓｱｷ"
+  description = "DevOps Engineer based in Hokkaido, specializing in Kubernetes and Infrastructure as Code"
+  primaryColor = "#54B689"
+  textPrimaryColor = "#292929"
+
+  [params.profile]
+    enable = true
+    name = "ﾀﾅｶ ﾄﾓｱｷ"
+    tagline = "DevOps Engineer"
+    avatar = ""
+    location = "北海道"
+
+  [params.contact]
+    enable = true
+    location = "北海道"
+
+    [[params.contact.list]]
+      icon = "fas fa-envelope-square"
+      url = "mailto:minazukijiro@gmail.com"
+      text = "minazukijiro@gmail.com"
+    [[params.contact.list]]
+      icon = "fas fa-globe"
+      url = "https://devops-blog.virtualtech.jp/archive/author/tnktmak"
+      text = "とことんDevOps"
+    [[params.contact.list]]
+      icon = "fab fa-github-square"
+      url = "https://github.com/aaaooai"
+      text = "github.com/aaaooai"
+    [[params.contact.list]]
+      icon = "fab fa-github-square"
+      url = "https://github.com/vtj-ttanaka"
+      text = "github.com/vtj-ttanaka"
+
+  [params.summary]
+    enable = true
+    text = """
+北海道在住のOpsエンジニアです。日本仮想化技術株式会社でKubernetes、Terraform、コンテナオーケストレーションに取り組んでいます。
+
+技術的には、DevOpsのOps側を得意とし、TerraformによるIaC、GitHub ActionsやGitLab CI/CD、CircleCIなどのCI/CD環境整備、Kubernetesエコシステムの最新技術の調査と実装、
+Linux系統とターミナル中心のワークフローを好み、インフラストラクチャ全般の技術検証を楽しんでいます。
+
+技術記事の執筆と知識共有を通じて、コミュニティに貢献することを大切にしています。
+"""
+
+  [params.skills]
+    enable = true
+
+    [[params.skills.list]]
+      title = "Infrastructure & Orchestration"
+      [[params.skills.list.items]]
+        details = "Kubernetes (Kueue/MultiKueue)"
+      [[params.skills.list.items]]
+        details = "分散機械学習環境でのリソース管理"
+      [[params.skills.list.items]]
+        details = "ArgoCD (GitOps)"
+      [[params.skills.list.items]]
+        details = "IaC (Terraform)"
+
+    [[params.skills.list]]
+      title = "Cloud & Platform"
+      [[params.skills.list.items]]
+        details = "AWS"
+      [[params.skills.list.items]]
+        details = "Google Cloud"
+      [[params.skills.list.items]]
+        details = "さくらのクラウド"
+      [[params.skills.list.items]]
+        details = "その他クラウド"
+      [[params.skills.list.items]]
+        details = "セルフホスティング環境構築"
+
+    [[params.skills.list]]
+      title = "DevOps & Development"
+      [[params.skills.list.items]]
+        details = "GitHub Actions"
+      [[params.skills.list.items]]
+        details = "CircleCI"
+      [[params.skills.list.items]]
+        details = "Shell Scripting"
+      [[params.skills.list.items]]
+        details = "Linux Administration"
+      [[params.skills.list.items]]
+        details = "PoC開発・技術検証"
+
+  [params.experience]
+    enable = true
+
+    [[params.experience.list]]
+      title = "Ops Engineer"
+      dates = "2021/07 ～ 現在"
+      company = "日本仮想化技術株式会社"
+      details = """
+Docker/Kubernetes、コンテナオーケストレーション、DevOps、Terraformを専門に活動。
+Kubernetesの最新技術（主にスケジューラー）の調査や実装に取り組んでいます。
+ログ収集基盤のLoki/Alloyの活用、TraefikベースのSSL証明書管理など、技術を生かした環境整備を楽しんでいます。
+"""
+
+    [[params.experience.list]]
+      title = "Infrastructure Engineer"
+      dates = "2011/03 ～ 2021/06"
+      company = "株式会社インフィニットループ"
+      details = """
+ソーシャルゲームのインフラ構築、運用、保守を担当。高負荷案件での負荷試験、負荷対策を経験。
+障害発生時は積極的に一次切り分けに取り組み、適切なチーム(Dev or 自分)に対応を割り振る。
+"""
+
+  [params.projects]
+    enable = true
+
+    [[params.projects.list]]
+      title = "Docker＋Kubernetesステップアップ入門"
+      meta = "技術評論社 | 2025年刊行"
+      tagline = "DockerとKubernetesの実践的な入門書の共著。実運用に役立つノウハウを提供。"
+      url = "https://gihyo.jp/book/2025/978-4-297-14746-4"
+
+    [[params.projects.list]]
+      title = "Software Design 2025年9月号"
+      meta = "技術評論社 | 共著"
+      tagline = "特集記事への寄稿。実践的な技術解説を執筆。"
+      url = "https://gihyo.jp/magazine/SD/archive/2025/202509"
+
+    [[params.projects.list]]
+      title = "Software Design 2025年6月号"
+      meta = "技術評論社 | 共著"
+      tagline = "特集記事への寄稿。実践的な技術解説を執筆。"
+      url = "https://gihyo.jp/magazine/SD/archive/2025/202506"
+
+    [[params.projects.list]]
+      title = "Software Design 2023年11月号"
+      meta = "技術評論社 | 共著"
+      tagline = "特集記事への寄稿。実践的な技術解説を執筆。"
+      url = "https://gihyo.jp/magazine/SD/archive/2023/202311"
+
+    [[params.projects.list]]
+      title = "Software Design 2023年3月号"
+      meta = "技術評論社 | 共著"
+      tagline = "特集記事への寄稿。実践的な技術解説を執筆。"
+      url = "https://gihyo.jp/magazine/SD/archive/2023/202303"
+
+  [params.information]
+    enable = true
+
+    [[params.information.list]]
+      title = "技術ブログ"
+      [[params.information.list.items]]
+        details = "[とことんDevOps](https://devops-blog.virtualtech.jp/archive/author/tnktmak) - Kubernetes、DevOps、IaCに関する技術記事を継続的に執筆"
+      [[params.information.list.items]]
+        details = "[ThinkIT](https://thinkit.co.jp/author/21963) - 技術連載記事"
+
+    [[params.information.list]]
+      title = "登壇"
+      [[params.information.list.items]]
+        details = "[もう難しくない！誰でもカンタンDocker入門 〜30分であなたのPCにアプリを立ち上げる〜](https://www.youtube.com/watch?v=ezYmSI42XP4)"
+      [[params.information.list.items]]
+        details = "[DevOpsに関連するツールとその概要を淡々と読み上げる会](https://www.youtube.com/watch?v=6PrCNBArFqE)"
+      [[params.information.list.items]]
+        details = "[自動化と効率化のためにGitHub Actionsを使いこなそう](https://www.youtube.com/watch?v=AYU7UyOPxtA)"
+      [[params.information.list.items]]
+        details = "[IaCコードリーディング ～Terraformのコードを一緒に読んで行こう～](https://www.youtube.com/watch?v=5EUGUudQ2sI)"
+      [[params.information.list.items]]
+        details = "[Software Design11月号第１特集「理想のコンテナイメージを作る」を振り返る](https://www.youtube.com/watch?v=vqBdSM5ogDE)"
+      [[params.information.list.items]]
+        details = "[これから始める継続的インテグレーション - GitHub Actions編](https://www.youtube.com/watch?v=UDOUsUhu0Sw)"
+      [[params.information.list.items]]
+        details = "[Kubernetes再入門 〜Kubernetes活用するならこれだけは知っておきたいこと〜](https://www.youtube.com/watch?v=5e6MJvw0QqE)"
+      [[params.information.list.items]]
+        details = "[Terraform CloudでIaC(Infrastructure as Code)について考えてみよう](https://www.youtube.com/watch?v=IcrNIyKTgFE)"
+
+    [[params.information.list]]
+      title = "関心のある分野"
+      details = "Kubernetesエコシステムの最新技術（DRA、TAS、External Dispatcher）、分散機械学習環境での効率的なリソース管理、セルフホスティング環境の構築、ターミナルワークフローの最適化、タイル型WM"
