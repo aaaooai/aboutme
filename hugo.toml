@@ -25,10 +25,6 @@ theme = 'hugo-devresume-theme'
       url = "mailto:minazukijiro@gmail.com"
       text = "minazukijiro@gmail.com"
     [[params.contact.list]]
-      icon = "fas fa-globe"
-      url = "https://devops-blog.virtualtech.jp/archive/author/tnktmak"
-      text = "とことんDevOps"
-    [[params.contact.list]]
       icon = "fab fa-github-square"
       url = "https://github.com/aaaooai"
       text = "github.com/aaaooai"
@@ -36,6 +32,14 @@ theme = 'hugo-devresume-theme'
       icon = "fab fa-github-square"
       url = "https://github.com/vtj-ttanaka"
       text = "github.com/vtj-ttanaka"
+    [[params.contact.list]]
+      icon = "fas fa-blog"
+      url = "https://aaaooai.github.io"
+      text = ">&1"
+    [[params.contact.list]]
+      icon = "fas fa-blog"
+      url = "https://devops-blog.virtualtech.jp/archive/author/tnktmak"
+      text = "とことんDevOps"
 
   [params.summary]
     enable = true
